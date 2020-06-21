@@ -10,4 +10,4 @@ ADD . /django_ec2
 
 WORKDIR /django_ec2
 
-CMD [ "python", "manage.py", "runserver", "0.0.0.0:8050" ]
+CMD [ "python", "manage.py", "runserver", "8050" ]
