@@ -1,0 +1,80 @@
+[
+  {
+    "model": "api.IndustryType",
+    "pk": 1,
+    "fields": {
+      "name": "Retail"
+    }
+  },
+  {
+    "model": "api.IndustryType",
+    "pk": 2,
+    "fields": {
+      "name": "Finance"
+    }
+  },
+  {
+    "model": "api.IndustryType",
+    "pk": 3,
+    "fields": {
+      "name": "Healthcare"
+    }
+  },
+  {
+    "model": "api.IndustryType",
+    "pk": 4,
+    "fields": {
+      "name": "Automotive"
+    }
+  },
+  {
+    "model": "api.IndustryType",
+    "pk": 5,
+    "fields": {
+      "name": "Public Sector"
+    }
+  },
+  {
+    "model": "api.PciDss",
+    "pk": 1,
+    "fields": {
+      "name": "Process inhouse processing"
+    }
+  },
+  {
+    "model": "api.PciDss",
+    "pk": 2,
+    "fields": {
+      "name": "Self attestation"
+    }
+  },
+  {
+    "model": "api.PciDss",
+    "pk": 3,
+    "fields": {
+      "name": "Outsourced"
+    }
+  },
+  {
+    "model": "api.PciDss",
+    "pk": 4,
+    "fields": {
+      "name": "Payment terminals"
+    }
+  },
+  {
+    "model": "api.BaselineConfiguration",
+    "pk": 1,
+    "fields": {
+      "per_app_cloud": 55,
+      "per_bus_act_outsource": 35,
+      "per_it_outsource": 70,
+      "org_scale": 1,
+      "global_footprint": false,
+      "dom_loc_workforce": 2,
+      "industry_type": 1,
+      "pci_dss": [1, 3],
+      "priv_reg_app": 0
+    }
+  }
+]
